@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Icono"
+    android:orientation="vertical"
+    android:background="#01C3DF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/imagen_menu_de_arriba"/>
+
+    <ImageView
+        android:id="@+id/imginsipnia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/insipnia"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btningresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar"
+        android:textColorHint="#D8DEE8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#018028"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/imagen_menu_de_abajo"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505452435043",
+    "project_id": "institucion-educativa-ab697",
+    "storage_bucket": "institucion-educativa-ab697.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505452435043:android:cc1c5067ebcd0fbc444a56",
+        "android_client_info": {
+          "package_name": "pe.edu.laspalmeras.las_palmeras"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLRy63oVhj_ahvnBkfQWqqr9St6whuw_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
