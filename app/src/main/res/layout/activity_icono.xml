@@ -26,7 +26,7 @@
         android:id="@+id/btningresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingresar"
+        android:hint="Siguiente"
         android:textColorHint="#D8DEE8"
         android:textSize="20sp"
         android:textStyle="bold"

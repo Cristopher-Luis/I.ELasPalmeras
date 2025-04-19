@@ -45,7 +45,6 @@ public class Formulario_Olvidecontrasena extends AppCompatActivity {
                 validarYcontinuar();
             }
         });
-
         // Listener para mostrar/ocultar número de teléfono
         imgEyeTelefono.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,14 +66,14 @@ public class Formulario_Olvidecontrasena extends AppCompatActivity {
                 editText.setSelection(editText.getText().length());
             }
         });
-
         // Listener para mostrar/ocultar correo electrónico
         imgEyeCorreo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                togglePasswordVisibility(lblcorreoelectronico, imgEyeCorreo);
+                toggleEmailVisibility(lblcorreoelectronico, imgEyeCorreo);
             }
-            private void togglePasswordVisibility(EditText editText, ImageView eyeIcon) {
+
+            private void toggleEmailVisibility(EditText editText, ImageView eyeIcon) {
                 if (editText.getInputType() == (InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD)) {
                     // Cambiar a texto visible
                     editText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);

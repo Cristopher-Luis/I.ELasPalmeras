@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardElevation="4dp"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="20dp"
         android:backgroundTint="#B1F8A3">
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,12 +48,18 @@
                     android:layout_column="1"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Verificación del Codigo"
+                    android:text="Verificación del código"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_marginTop="20dp" />
             </GridLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hemos enviado un código a tu correo electrónico. Por favor, escríbelo en el campo que se encuentra debajo."
+                android:textColor="#000000"/>
 
 
         </LinearLayout>

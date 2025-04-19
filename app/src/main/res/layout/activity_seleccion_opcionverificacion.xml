@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seleccion_Opcionverificacion"
+    android:orientation="vertical"
+    android:background="#01C3DF">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:src="@drawable/imagen_menu_de_arriba"
+        android:scaleType="fitXY">
+    </ImageView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#B1F8A3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <ImageView
+                    android:id="@+id/imglibro"
+                    android:layout_width="146dp"
+                    android:layout_height="116dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:src="@drawable/libro" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="Seleccione el método de verificación"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+                </TextView>
+            </GridLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Por favor, seleccione el método de verificación, ya sea por teléfono o por correo electrónico."
+                android:textColor="#000000"
+                android:layout_marginStart="10dp">
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/btnvalidarcodigocelular"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/borde_botones_celular_correo_recurso"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/celular"
+                    android:background="#D6D7D7">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Validación de codigo por celular"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-black">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnvalidarcodigocorreoelectronico"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/borde_botones_celular_correo_recurso"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/correo"
+                    android:background="#D6D7D7">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Validación de codigo por correo electronico"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-black">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:src="@drawable/imagen_menu_de_abajo"
+        android:scaleType="fitXY"
+        android:layout_marginTop="60dp">
+    </ImageView>
+</LinearLayout>
